@@ -9,5 +9,5 @@ function updatePlaylist(obj, key, value){
 }
 function removeFromPlaylist(playlist, bruno){
   delete playlist[bruno];
-  return pla
+  return playlist;
 }
